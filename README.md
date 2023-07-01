@@ -1,8 +1,6 @@
 # MiChatGPT
 
-App Android que invoca la API de OpenAI (https://platform.openai.com/docs/introduction) para comunicarnos con ChatGPT.
-
-Se debe modificar el archivo Config.java con la API-KEY correspondiente.
+![PORTADA](https://github.com/AndresFelipe23/chatgpt-liemav/assets/75282613/c8dfcf54-a94f-4017-ae94-3e5ec6434d57)
 
 
 
