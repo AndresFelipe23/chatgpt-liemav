@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#2196F3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ChatGpt LIEMAV"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="326dp"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:background="@drawable/circle_search">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_search"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"/>
+                <EditText
+                    android:id="@+id/editTextQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:hint="Escribe una pregunta..."
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/buttonAsk"
+                    android:layout_width="87dp"
+                    android:layout_height="37dp"
+                    android:text="Enviar"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button"/>
+                <Button
+                    android:id="@+id/buttonSpeech"
+                    android:layout_width="87dp"
+                    android:layout_height="37dp"
+                    android:text="Enviar voz"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/button"/>
+                <CheckBox
+                    android:id="@+id/checkVoiceResut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Resultado por voz"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="356dp"
+        android:layout_height="86dp"
+        android:src="@drawable/logo_liemav"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center|bottom"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
