@@ -54,7 +54,7 @@ public class Config {
 
 Donde colocaras el link del repositorio y dale en clonar.
 
-Dirigete al archivo Config y cambia la API KEY por la que te genera OpenIA, para buscar tu cable en OpenIA dirigete al siguiente link https://openai.com/ accede con tu cuenta y seleccionaremos la opción de API
+Dirigete al archivo Config y cambia la API KEY por la que te genera OpenAI, para buscar tu cable en OpenAI dirigete al siguiente link https://openai.com/ accede con tu cuenta y seleccionaremos la opción de API
 
 ![image](https://github.com/AndresFelipe23/chatgpt-liemav/assets/75282613/445b24ae-5817-473d-b7f3-8f37e453e09d)
 
